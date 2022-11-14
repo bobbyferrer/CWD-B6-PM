@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <!-- Style CSS -->
+   <link rel="stylesheet" href="main.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+  <title>Forms</title>
+</head>
+<body class="blue-grey darken-1">
+
+  <div class="navbar-fixed">
+    <nav class="transparent">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo">CWD Batch 6</a>
+          <a href="#" data-target="slide-out" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>   
+    </nav>
+  </div>
+
+
+  <div class="container">
+    <h4 class="grey-text">Date Picker</h4>
+    <div class="form">
+      <div class="input-field">
+        <input type="text" class="datepicker">
+        <label for="date">Date</label>
+        <h4 class="grey-text">Time Picker</h4>
+      <div class="input-field">
+        <input type="text" class="timepicker">
+        <label for="time">time</label>
+      </div>
+    </div>
+
+    <h4 class="grey-text">Chips</h4>
+    <div class="chip">
+      <img src="images/img5.jpg" alt="Contact Person">
+      Kenny Rowe
+    </div>
+  </div>
+  
+
+
+
+
+
+  <!-- Jquery CDN -->
+ <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+ <script>
+  $(document).ready(function() {
+    // datepicker
+    $('.datepicker').datepicker();
+    // timepicker
+    $('.timepicker').timepicker();
+  });
+ </script>
+</body>
+</html>
